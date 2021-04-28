@@ -1,11 +1,17 @@
 footer{
     font-size: 13px;
     color: var(--md-gray);
+    z-index: 50;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 98;
 }
 
 footer i{
     font-size: 16px!important;
-    color: var(--light-green);
     margin-left: 15px;
 }
 

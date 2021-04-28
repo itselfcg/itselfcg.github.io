@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title> Itzel Contreras @yield('title')</title>
+    <title>@yield('title') Itzel Contreras</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/transition.css') }}">
     <link href="{{ asset('css/modules/navbar.css') }}" rel="stylesheet">
     <link href="{{ asset('css/modules/footer.css') }}" rel="stylesheet">
     @yield('css-scripts')
@@ -20,7 +21,7 @@
     @include('includes.scroll-up')
 
 
-    <main>
+    <main style="padding: 4em 0 12em; background-color: white;">
         @yield('content')
     </main>
 
