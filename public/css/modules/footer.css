@@ -1,0 +1,11 @@
+footer{
+    font-size: 13px;
+    color: var(--md-gray);
+}
+
+footer i{
+    font-size: 16px!important;
+    color: var(--light-green);
+    margin-left: 15px;
+}
+

@@ -1,0 +1,376 @@
+@import url(abstracts/colors.css);
+
+body{
+    overflow-x: hidden;
+}
+
+
+
+/* BUTTONS*/
+
+.btn{
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    font-size: 13px;
+    width: 150px;
+
+}
+
+.btn-submit{
+    background-color: var(--pink);
+    width: 100px;
+    font-size: 11px;
+
+}
+
+.btn-submit:hover{
+    background-color: rgba(var(--pink-rgb),.7);
+}
+
+
+
+.btn-join{
+    background-color: var(--blue);
+    width: 200px;
+    font-size: 16px;
+}
+
+.btn-join:hover{
+    background-color: rgba(var(--blue-rgb),.7);
+}
+
+.btn-login{
+    background-color: var(--green);
+    width: 125px;
+    font-size: 15px;
+}
+
+.btn-login:hover{
+    background-color: rgba(var(--green-rgb),.7);
+}
+
+
+.btn-yellow{
+    background-color: var(--yellow);
+}
+
+
+.btn-yellow:hover{
+    background-color: rgba(var(--yellow-rgb),.7);
+}
+
+.btn-pink{
+    background-color: var(--pink);
+}
+
+.btn-pink:hover{
+    background-color: rgba(var(--pink-rgb),.7);
+}
+
+.btn-outline-green{
+    border-color: var(--green);
+color: var(--green);
+}
+
+.btn-outline-green:hover{
+    background-color: var(--green);
+    color: white;
+}
+
+
+.btn-outline-orange{
+    border-color: var(--orange);
+    color: var(--orange);
+}
+
+.btn-outline-orange:hover{
+    background-color: var(--orange);
+    color: white;
+}
+
+
+
+.btn-green{
+    background-color: var(--green);
+}
+
+.btn-green:hover{
+    background-color: rgba(var(--green-rgb),.7);
+}
+
+.btn-orange{
+    background-color: var(--orange);
+}
+
+.btn-orange:hover{
+    background-color: rgba(var(--orange-rgb),.7);
+}
+
+.btn-purple{
+    background-color: var(--purple);
+}
+
+
+.btn-purple:hover{
+    background-color: rgba(var(--purple-rgb),.7);
+}
+
+
+
+/* SCROLL BUTTON*/
+#scrollUpButton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: var(--lightgray);
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 100%; /* Rounded corners */
+    font-size: 25px; /* Increase font size */
+    height: 50px;
+    width: 50px;
+}
+
+#scrollUpButton:hover {
+    background-color: var(--darkwhite);
+}
+
+/* BACKGROUNDS*/
+
+.bg-yellow{
+    background-color: var(--yellow);
+}
+
+.bg-green{
+    background-color: var(--green);
+}
+
+.bg-pink{
+    background-color: var(--pink);
+}
+
+.bg-purple{
+    background-color: var(--purple);
+}
+
+.bg-orange{
+    background-color: var(--orange);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-gray{
+    background-color: var(--darkwhite);
+}
+.bg-lightgray{
+    background-color: var(--mmwhite);
+}
+.bg-lightblue{
+    background-color: var(--lightblue);
+}
+
+/* FONTS*/
+
+.georgia{
+    font-family: Georgia;
+    font-weight: normal;
+}
+
+.text-yellow{
+    color: var(--pink);
+}
+
+/* TITLES */
+
+h1{
+    color: black;
+    font-weight: bold;
+    font-family:Georgia;
+    font-size: 4em;
+    line-height: .9em;
+
+}
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    text-transform: uppercase;
+
+}
+
+h3{
+    color: var(--darkwhite);
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+h4{
+    color: var(--darkgray);
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    font-size: 1.5em;
+    text-transform: uppercase;
+
+}
+
+
+h5 {
+    color: var(--darkwhite);
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+    font-size: 1em;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Trebuchet MS";
+
+
+}
+
+h7 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+}
+
+
+
+
+p,tr{
+    font-family: Arial!important;
+    font-size: 15px!important;
+    color: var(--lightblack) !important;
+
+}
+
+td{
+    font-size: 13px!important;
+}
+
+.link{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold!important;
+}
+
+.link:hover{
+    color: var(--darkgray);
+}
+
+
+
+/* SEPARATORS */
+
+.separator h2 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2.5px solid var(--lightblack);
+    margin: 2em 0em .75em ;
+}
+
+.separator h2 span {
+    font-size: 40px;
+    color: var( --lightblack)!important;
+    font-family: "Microsoft JhengHei";
+    user-select: none;
+}
+
+.separator .description{
+    font-size: 15px;
+    font-family: Arial!important;
+text-align: center;
+    color: var(--darkgray);
+    font-weight: bold;
+}
+
+
+hr.sep1{
+    padding-top: 0px;
+    padding-bottom: .5em;
+    border-top: 5px solid #f1f1f1;
+
+}
+
+/* POSITION ALIGNS */
+.center{
+    align-items: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* BACKGROUNDS PATTERNS*/
+
+.texture-tablecloth{
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.5) 50%, transparent 50%),
+    linear-gradient(rgba(255, 255, 255, 0.5) 50%, transparent 50%);
+    background-size:50px 50px;
+}
+
+.texture-dots{
+    background-image: radial-gradient(white 15%, transparent 16%),
+    radial-gradient(white 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.texture-xlines{
+    background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px;
+}
+
+.texture-45lines{
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+}
+
+.texture-ylines{
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+    background-size: 50px 50px;
+}
+
+/* TITLES */
+
+.container-title{
+    height: 200px;
+
+}
+
+.title{
+    padding-bottom: 1em;
+}
+
+/* BORDERS */
+.border-pink{
+    border-color: var(--gray) !important;
+
+}
+
+/**/
+
+.pt-6{
+    padding-top: 6em;
+}
+.pb-6{
+    padding-bottom: 6em;
+}
