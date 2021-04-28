@@ -6,13 +6,13 @@
         </button>
         <div class="navbar-collapse collapse" id="navbar9">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <li class="nav-item {{ Request::is('work') ? 'active' : '' }}">
                     <a class="nav-link" href="#">work</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">about</a>
+                <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
+                    <a class="nav-link" href="about">about</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
                     <a class="nav-link" href="#">contact</a>
                 </li>
             </ul>

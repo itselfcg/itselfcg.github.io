@@ -1,7 +1,6 @@
 nav{
 font-size: 18px;
     color: var(--md-gray) !important;
-
 }
 
 
@@ -9,6 +8,7 @@ nav li{
     margin-left: 15px;
 }
 
-nav a:hover{
+nav a:hover, .active>a{
     color: var(--light-green)!important;
+
 }
