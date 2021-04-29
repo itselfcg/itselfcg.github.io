@@ -5,10 +5,12 @@
     --light-green-rgb: 36,87,57;
     --dark-pink:#f09894;
     --dark-pink-rgb: 240,152,148;
-    --pink: #fab7ae;
-    --pink-rgb: 250, 183, 174;
+    --pink: #f2b3bb;
+    --pink-rgb: 242, 179, 187;
     --light-pink: #fcd3ce;
     --light-rgb: 256, 211, 206;
+    --yellow-rgb: 239, 182, 39;
+    --yellow-rgb: 239, 182, 39;
 
     --md-black: #262626;
     --xs-black: #404040;
@@ -18,5 +20,6 @@
     --lg-white: #f6f6f6;
     --md-white:#f8f8f8;
     --xs-white: #d0d0d0;
+    --gray-rgb: 223, 223, 223;
 
 }

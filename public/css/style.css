@@ -87,6 +87,17 @@ h7{
     font-weight: bold;
 }
 
+
+h8{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+h9{
+    font-size: 1.5em;
+}
+
 /* TEXT */
 p{
     letter-spacing: .4px;
@@ -105,25 +116,74 @@ p a:hover{
     border-bottom: solid var(--green) 1px;
 }
 
-.text-green{
-    color: var(--green) !important;
-}
-
  a> i:hover {
     color: var(--green) !important;
 }
 
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+/* TEXT COLORS */
+.text-green{
+    color: var(--green) !important;
+}
+.text-gray{
+    color: var(--gray) !important;
+}
+
+.text-md-black{
+    color: var(--md-black) !important;
+}
+
+
+/* IMAGES*/
+
+
+img{
+    border-radius: 15px;
+}
+
+
+/* CONTAINERS*/
+
+.preview {
+    position: relative;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+}
+.content {
+    border-radius: 15px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+.preview .content:hover {
+    opacity: 1;
+}
 
 
 
+/* POSITION */
 
+.absolute-center {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 
-
-
-
-
-
-
-
-
-
+}

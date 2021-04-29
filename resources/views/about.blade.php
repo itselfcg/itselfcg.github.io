@@ -3,14 +3,14 @@
 @section('title','About —')
 
 @section('content')
-    <div class="container fade-in">
+    <div class="container-sm  fade-in">
 
         <div class="row pb-4">
             <div class="col-md-5 text-center">
                 <img class="w-75" style="border-radius: 50%" src="/pictures/itzel.jpg">
             </div>
             <div class="col-md-7">
-                <h4>hello, I’m itzel.</h4>
+                <h4>nice to meet you.</h4>
                 <h5>
                     I’m a full stack developer currently learning about User Experience Design.
 
