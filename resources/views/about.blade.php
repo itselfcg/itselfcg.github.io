@@ -10,22 +10,24 @@
                 <img class="w-75" style="border-radius: 50%" src="/pictures/itzel.jpg">
             </div>
             <div class="col-md-7">
-                <h4>hello, I’m itzel</h4>
+                <h4>hello, I’m itzel.</h4>
                 <h5>
                     I’m a full stack developer currently learning about User Experience Design.
 
                 </h5>
                 <p>
                     I started exploring UX to enrich my front end but I found myself learning about equity,
-                    accessibility and the next billion users, and I knew I wanted to create solutions for the the modern
+                    accessibility and the next billion users. Now I want to create solutions for the the modern
                     age.
                 </p>
 
                 <a class="btn btn-outline-green" target="_blank" href="https://docs.google.com/document/d/1HPH85UjV1OXGygrM2h3WuIlHTQrrJQErvWaIYiRHCM0/edit?usp=sharing">Resume</a>
-                <a href="https://www.linkedin.com/in/itselfcg/" target="_blank">
-                    <i class="fa fa-linkedin text-dark"></i>
+                <a class="btn btn-outline-green" href="https://www.linkedin.com/in/itselfcg/" target="_blank">
+                    <i class="fa fa-linkedin "></i>
                 </a>
-
+                <a class="btn btn-outline-green" href="mailto: itselfcg@gmail.com" target="_blank">
+                    <i class="fa fa-envelope "></i>
+                </a>
             </div>
         </div>
         <hr>
