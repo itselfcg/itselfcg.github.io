@@ -1,10 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container p-5">
         <a href="/" class="navbar-brand">itselfc</a>
-        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
+
+        <button id="navbar-toggler" class="navbar-toggler collapsed border-0" type="button"
+                data-toggle="collapse" data-target="#navbar">
             <span class="navbar-toggler-icon"></span>
+            <div class="close-icon py-1">✖</div>
         </button>
-        <div class="navbar-collapse collapse" id="navbar9">
+
+        <div class="navbar-collapse collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
                     <a class="nav-link" href="{{asset('/')}}">work</a>

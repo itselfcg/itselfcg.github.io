@@ -1,5 +1,6 @@
 nav{
-font-size: 18px;
+    z-index: 150;
+    font-size: 18px;
     color: var(--md-gray) !important;
 }
 
@@ -11,4 +12,69 @@ nav li{
 nav a:hover, .active>a{
     color: var(--light-green)!important;
 
+}
+.navbar-brand{
+    z-index: 12
+
+}
+
+.navbar .navbar-toggler {
+    z-index: 98
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-collapse {
+        background: white;
+        opacity: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: opacity 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center !important;
+        overflow: hidden;
+        font-size: 45px!important;
+    }
+    .navbar .navbar-collapse.collapse {
+        display: flex;
+        opacity: 0;
+        pointer-events: none
+    }
+    .navbar .navbar-collapse.collapsing[style*="height"] {
+        opacity: 1;
+        height: 100vh !important
+    }
+    .navbar .navbar-collapse.collapsing {
+        opacity: 0;
+        height: 100vh
+    }
+    .navbar .navbar-collapse.collapse.show {
+        opacity: 1;
+        pointer-events: auto
+    }
+    .navbar .navbar-collapse .navbar-nav {
+        margin-right: initial !important;
+        margin-top: auto;
+        margin-bottom: auto
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        margin-left: initial !important;
+    }
+}
+
+
+
+.navbar-toggler.collapsed .close-icon {
+    display: none;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
 }
