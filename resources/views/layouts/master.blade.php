@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="{{ asset('css/transition.css') }}">
     <link href="{{ asset('css/modules/navbar.css') }}" rel="stylesheet">
     <link href="{{ asset('css/modules/footer.css') }}" rel="stylesheet">
+    <script src="https://unpkg.com/cocoen/dist/cocoen.js"></script>
+
     @yield('css-scripts')
 </head>
 
@@ -32,6 +34,8 @@
 
 <script src="{{ asset('js/app.js') }}" defer></script>
 <script src="{{ asset('js/scroll-up.js') }}" defer></script>
-
+<script>
+    Cocoen.parse(document.body);
+</script>
 @yield('js-scripts')
 </html>
