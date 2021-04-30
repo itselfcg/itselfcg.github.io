@@ -10,7 +10,7 @@
                 <img class="w-75" style="border-radius: 50%" src="/pictures/itzel.jpg">
             </div>
             <div class="col-md-7">
-                <h4>nice to meet you.</h4>
+                <h4 class="text-green">nice to meet you.</h4>
                 <h5>
                     I’m a full stack developer currently learning about User Experience Design.
 

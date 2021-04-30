@@ -17,3 +17,8 @@ Route::get('/', function () {
     return view('work');
 });
 Route::view('/about', 'about');
+Route::view('/work/penguin', 'penguin');
+
+Route::any('{query}',
+    function() { return redirect('/'); })
+    ->where('query', '.*');

@@ -12,15 +12,19 @@
 
         <div class="row w-100">
             <div class="col-md-6 pt-4">
-                <div class="preview">
-                    <img class="w-100" src="pictures/draws.jpg">
-                    <div class="content" style="background-color: rgba(var(--gray-rgb),.9);">
-                        <div class="absolute-center">
-                            <h8>drawing with html</h8><br>
-                            <h9>HTML + CSS</h9>
+                <a href="/work/penguin">
+                    <div class="preview">
+                        <img class="w-100" src="pictures/draws.jpg">
+                        <div class="content" style=" color:black;
+                        background-color: rgba(var(--gray-rgb),.9);">
+                            <div class="absolute-center">
+                                <h8>drawing with html</h8><br>
+                                <h9>HTML + CSS</h9>
+
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
 
             <div class="col-md-6 pt-4">
