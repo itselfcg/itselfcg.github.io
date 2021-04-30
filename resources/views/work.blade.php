@@ -1,6 +1,5 @@
 @extends('layouts.master')
 
-
 @section('content')
     <div class="container fade-in">
 
@@ -14,11 +13,11 @@
         <div class="row w-100">
             <div class="col-md-6 pt-4">
                 <div class="preview">
-                    <img class="w-100" src="pictures/flawlessbox.jpg">
-                    <div class="content" style="background-color: rgba(var(--pink-rgb),.9);">
-                            <div class="absolute-center">
-                                <h8>flawlessbox</h8><br>
-                                <h9>Laravel 8 + PostgreSQL + Bootstrap 5</h9>
+                    <img class="w-100" src="pictures/draws.jpg">
+                    <div class="content" style="background-color: rgba(var(--gray-rgb),.9);">
+                        <div class="absolute-center">
+                            <h8>drawing with html</h8><br>
+                            <h9>HTML + CSS</h9>
                         </div>
                     </div>
                 </div>
@@ -27,7 +26,7 @@
             <div class="col-md-6 pt-4">
                 <div class="preview">
                     <img class="w-100" src="pictures/the-poetry-club.jpg">
-                    <div class="content" style="background-color: rgba(0,0,0,.9); color: white;">
+                    <div class="content" style="background-color: rgba(0,0,0,.95); color: white;">
                             <div class="absolute-center">
 
                                 <h8>the poetry club</h8><br>
@@ -53,12 +52,13 @@
                 </div>
             </div>
             <div class="col-md-6 pt-4">
+
                 <div class="preview">
-                    <img class="w-100" src="pictures/draws.jpg">
-                    <div class="content" style="background-color: rgba(var(--gray-rgb),.9);">
-                            <div class="absolute-center">
-                                <h8>drawing with html</h8><br>
-                                <h9>HTML + CSS</h9>
+                    <img class="w-100" src="pictures/flawlessbox.jpg">
+                    <div class="content" style="background-color: rgba(var(--pink-rgb),.9);">
+                        <div class="absolute-center">
+                            <h8>flawlessbox</h8><br>
+                            <h9>Laravel 8 + PostgreSQL + Bootstrap 5</h9>
                         </div>
                     </div>
                 </div>
