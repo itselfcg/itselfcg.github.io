@@ -25,7 +25,7 @@
 
                 <p>
                     With basic figures you can create almost everything!
-                    The challenge for this project was recreate a kid's draw into a html element.
+                    The challenge for this project was recreating children's drawing. Final result? a cute drawing.
                 </p>
             </div>
         </div>

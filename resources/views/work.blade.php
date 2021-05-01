@@ -6,7 +6,7 @@
         <div class="row text-center" style="padding-bottom: 10em;">
             <div class="col">
                 <h4 class="text-md-black">hello~, <span class="text-green"> I’m itzel.</span></h4>
-                <h5 class="text-gray"> I'm pasionate about improvement. </h5>
+                <h5 class="text-gray" style="font-weight: normal"> I'm pasionate about improvement. </h5>
             </div>
         </div>
 
@@ -19,7 +19,7 @@
                         background-color: rgba(var(--gray-rgb),.9);">
                             <div class="absolute-center">
                                 <h8>drawing with html</h8><br>
-                                <h9>HTML + CSS</h9>
+                                <h9>HTML / CSS</h9>
 
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                     <div class="content" style="background-color: rgba(var(--pink-rgb),.9);">
                         <div class="absolute-center">
                             <h8>flawlessbox</h8><br>
-                            <h9>Laravel 8 + PostgreSQL + Bootstrap 5</h9>
+                            <h9>Laravel 8 / PostgreSQL / Bootstrap 5</h9>
                         </div>
                     </div>
                 </div>
