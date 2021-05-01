@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 Route::view('/about', 'about');
 Route::view('/work/penguin', 'penguin');
+Route::view('/work/the-poetry-club', 'poetry-club');
 
 Route::any('{query}',
     function() { return redirect('/'); })

@@ -28,16 +28,19 @@
             </div>
 
             <div class="col-md-6 pt-4">
+                <a href="/work/the-poetry-club">
+
                 <div class="preview">
                     <img class="w-100" src="pictures/the-poetry-club.jpg">
                     <div class="content" style="background-color: rgba(0,0,0,.95); color: white;">
                             <div class="absolute-center">
 
                                 <h8>the poetry club</h8><br>
-                                <h9>Bootstrap 4</h9>
+                                <h9>Bootstrap 4 / JS</h9>
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
         </div>
