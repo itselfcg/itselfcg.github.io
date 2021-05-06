@@ -23,8 +23,11 @@
     @include('includes.scroll-up')
 
 
-    <main style="padding: 4em 0 12em; background-color: white;">
-        @yield('content')
+    <main style="padding: 4em 0 12em; background-color: white;" >
+<div class="container-fluid container w-75 fade-in">
+    @yield('content')
+</div>
+
     </main>
 
     <footer>

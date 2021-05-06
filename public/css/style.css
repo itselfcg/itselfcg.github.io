@@ -2,12 +2,13 @@
 body{
     overflow-x: hidden;
 }
+.co
 
 /* Buttons*/
 
 
 .btn-outline-green{
-    border-color: var(--green);
+    border: 1px solid var(--green)!important;
     color: var(--green);
     transition: all 500ms linear;
 

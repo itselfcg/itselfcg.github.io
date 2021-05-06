@@ -1,16 +1,15 @@
 @extends('layouts.master')
 
 @section('content')
-    <div class="container fade-in">
 
         <div class="row text-center" style="padding-bottom: 10em;">
             <div class="col">
-                <h4 class="text-md-black">hello~, <span class="text-green"> I’m itzel.</span></h4>
+                <h4 class="text-md-black">hello~, <span class="text-green" style="display: inline-block;"> I’m itzel.</span></h4>
                 <h5 class="text-gray" style="font-weight: normal"> I'm pasionate about improvement. </h5>
             </div>
         </div>
 
-        <div class="row w-100">
+        <div class="row text-center">
             <div class="col-md-6 pt-4">
                 <a href="/work/penguin">
                     <div class="preview">
@@ -43,8 +42,6 @@
                 </a>
             </div>
 
-        </div>
-        <div class="row w-100 ">
             <div class="col-md-6 pt-4">
                 <div class="preview">
                     <img class="w-100" src="pictures/baja-discover.jpg">
@@ -71,5 +68,4 @@
                 </div>
             </div>
         </div>
-    </div>
 @endsection
