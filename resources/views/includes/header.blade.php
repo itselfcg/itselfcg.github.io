@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container p-5">
-        <a href="/" class="navbar-brand">itselfc</a>
+        <a href="/" class="navbar-brand"><img src="{{asset('pictures/logo3.png')}}"></a>
 
         <button id="navbar-toggler" class="navbar-toggler collapsed border-0" type="button"
                 data-toggle="collapse" data-target="#navbar">
@@ -14,11 +14,9 @@
                     <a class="nav-link" href="{{asset('/')}}">work</a>
                 </li>
                 <li class="nav-item {{ Request::is('about') ? 'active' : '' }}">
-                    <a class="nav-link" href="about">about</a>
+                    <a class="nav-link" href="{{asset('about')}}">about</a>
                 </li>
-                <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
-                    <a class="nav-link" href="#">contact</a>
-                </li>
+
             </ul>
         </div>
     </div>
