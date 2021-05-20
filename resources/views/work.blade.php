@@ -31,8 +31,7 @@
                         <img class="w-100 rounded" src="pictures/flawlessbox.jpg">
                         <div class="content" style="background-color: rgba(var(--pink-rgb),.9);">
                             <div class="absolute-center">
-                                <h8>flawlessbox</h8><br>
-                                <h9>Laravel 8 / PostgreSQL / Bootstrap 5</h9>
+                                <h8>coming soon</h8><br>
                             </div>
                         </div>
                     </div>
@@ -59,8 +58,8 @@
                         <img class="w-100 rounded" src="pictures/baja-discover.jpg">
                         <div class="content" style="background-color: rgba(var(--yellow-rgb),.9);">
                             <div class="absolute-center">
-                                <h8>baja discover</h8><br>
-                                <h9>Bootstrap 4</h9>
+                                <h8>coming soon</h8><br>
+
 
                             </div>
 
