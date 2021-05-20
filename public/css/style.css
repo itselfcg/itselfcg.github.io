@@ -1,11 +1,10 @@
 @import url(abstracts/colors.css);
 body{
     overflow-x: hidden;
+    font-family: "Arial";
 }
-.co
 
 /* Buttons*/
-
 
 .btn-outline-green{
     border: 1px solid var(--green)!important;
@@ -15,7 +14,7 @@ body{
 }
 
 .btn-outline-green:hover{
-    background-color: var(--green);
+    background-color: var(--green)!important;
     color: white;
 }
 
@@ -42,13 +41,18 @@ body{
 
 }
 
+footer{
+    box-shadow: 0px -12px 50px -7px rgba(0,0,0,0.025);
+}
 /* TITLES*/
 
+
 h2{
-    text-transform: uppercase;
-    font-size: 20px;
-    font-family: 'Trebuchet MS';
-    text-transform: uppercase;
+    color: var(--xs-black);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:"Trebuchet MS";
+    letter-spacing: .5px;
 
 }
 
@@ -99,9 +103,17 @@ h9{
 }
 
 /* TEXT */
-p{
+
+.list{
+    color: var(--green);
+font-weight: bold;
+}
+
+p,li{
     letter-spacing: .4px;
-    font-size: 1em;
+    font-size: 1.2em;
+    color: var(--md-gray);
+
 }
 
 p a{
@@ -138,12 +150,15 @@ p a:hover{
     color: var(--md-black) !important;
 }
 
-
+.navbar img{
+    width: 75px;
+    height: auto;
+}
 /* IMAGES*/
 
 
-img{
-    border-radius: 15px;
+.rounded{
+    border-radius: 15px!important;
 }
 
 
@@ -187,3 +202,42 @@ img{
     transform: translateY(-50%);
 
 }
+
+
+@media (min-width: 993px) {
+    .p-6{
+        padding: 0em 10em 0em 10em;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .p-6{
+        padding: 0em 6em 0em 6em;
+    }
+
+}
+@media (max-width: 768px) {
+    .p-6{
+        padding: 0em 0em 0em 0em;
+    }
+
+}
+
+section{
+padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+
+
+.bg-gray{
+ background-color: rgba(var(--gray-rgb),.15);
+}
+
+
+#cinematik i{
+    color: var(--gold);
+}
+
+.tab { margin-left: 40px; }
