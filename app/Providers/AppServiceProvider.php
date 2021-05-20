@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Contracts\Routing\UrlGenerator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -27,6 +28,6 @@ class AppServiceProvider extends ServiceProvider
     {
         if(env('REDIRECT_HTTPS')) {
             $this->app['request']->server->set('HTTPS', true);
-        }
+    }
     }
 }
