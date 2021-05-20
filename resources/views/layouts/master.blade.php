@@ -5,6 +5,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title') Itzel Contreras</title>
+    <link rel = "icon" href =
+    "{{asset('pictures/logo.png')}}"
+          type = "image/x-icon">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/transition.css') }}">
@@ -24,7 +27,7 @@
 
 
     <main style="padding: 4em 0 12em; background-color: white;" >
-<div class="container-fluid container w-75 fade-in">
+<div class="fade-in">
     @yield('content')
 </div>
 
