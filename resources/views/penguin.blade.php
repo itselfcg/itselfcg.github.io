@@ -1,5 +1,8 @@
 
 @extends('layouts.project')
+@section('title')
+    Drawing with css —
+@endsection
 @section('p-title')
     drawings<br>with css.
 @endsection
@@ -10,17 +13,18 @@
 @endsection
 @section('description')
     With basic figures you can create almost everything!
-    Challenge: Recreate a children's drawing with pure css. Final result? a cute drawing.
+    Challenge: Recreate a children's drawing with css. Final result? a cute drawing.
 @endsection
-@section('project-content')
+@section('header-content')
     <div class="cocoen w-100">
         <img  src="/pictures/penguin-draw.jpg">
         <img src="/pictures/penguin-draw2.jpg">
     </div>
 @endsection
-
-@section('duration','Two Weeks')
-@section('resources')
+@section('col-1','Duration')
+@section('col-1-description','Two weeks')
+@section('col-2','Resources')
+@section('col-2-description')
     <a href="https://github.com/itselfcg/nyan-penguin"
        target="_blank">Github</a>,
     <a href="https://codepen.io/itselfcg/full/gOProLd"

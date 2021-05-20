@@ -1,5 +1,9 @@
 
 @extends('layouts.project')
+@section('title')
+    The poety club —
+@endsection
+
 @section('p-title')
     the<br> poetry<br> club.
 @endsection
@@ -13,7 +17,7 @@
     Final result? A responsive website with interactive poetry.
 @endsection
 
-@section('project-content')
+@section('header-content')
     <div class="row no-gutters">
         <div class="col">
             <img class="img-fluid" src="/pictures/the-poetry-club11.jpg">
@@ -25,8 +29,12 @@
 
 @endsection
 
-@section('duration','Four Weeks')
-@section('resources')
+
+
+@section('col-1','Duration')
+@section('col-1-description','Four weeks')
+@section('col-2','Resources')
+@section('col-2-description')
     <a href="https://github.com/itselfcg/sor-juana-fanpage"
        target="_blank">Github</a>,
     <a href="https://codepen.io/itselfcg/full/OJyEvRg"

@@ -3,7 +3,7 @@
 @section('title','About —')
 
 @section('content')
-
+<div class="container">
         <div class="row pb-4">
             <div class="col-md-5 text-center">
                 <img class="w-75" style="border-radius: 50%" src="/pictures/itzel.jpg">
@@ -11,13 +11,13 @@
             <div class="col-md-7">
                 <h4 class="text-green">nice to <span style="display: inline-block;">meet you.</span></h4>
                 <h5>
-                    I’m a full stack developer currently learning about User Experience Design.
+                    I’m a full stack developer, currently learning about User Experience Design.
 
                 </h5>
                 <p>
                 <p>
-                    I started exploring UX to enrich my front end but I found myself learning about equity,
-                    accessibility and the next billion users. Now I want to create solutions for the the modern
+                    I started exploring UX to enrich my front-end but I found myself learning about equity,
+                    accessibility and the next billion users. Now I want to create solutions for the modern
                     age.
                 </p>
 
@@ -103,11 +103,10 @@
                             Js,
                             SQLServer,
                             MySql,
-                            HTML & CSS,
-                            Bootstrap,
                             Hibernate,
-                            Spring
-
+                            Spring,
+                            HTML, CSS,
+                            Bootstrap 4
 
                         </p>
 
@@ -138,4 +137,5 @@
                 </div>
             </div>
         </div>
+</div>
 @endsection
