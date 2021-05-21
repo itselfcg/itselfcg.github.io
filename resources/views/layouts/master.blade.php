@@ -5,6 +5,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>@yield('title') Itzel Contreras</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel = "icon" href =
     "{{asset('pictures/logo.png')}}"
           type = "image/x-icon">
