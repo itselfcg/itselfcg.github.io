@@ -2,13 +2,14 @@
 
 @section('content')
 
-        <div class="row text-center" style="padding-bottom: 10em;">
-            <div class="col">
-                <h4 class="text-md-black">hello~, <span class="text-green" style="display: inline-block;"> I’m itzel.</span></h4>
-                <h5 class="text-gray" style="font-weight: normal"> I'm pasionate about improvement. </h5>
-            </div>
-        </div>
+
         <div class="container">
+            <div class="row text-center" style="padding-bottom: 10em;">
+                <div class="col">
+                    <h4 class="text-md-black">hello~, <span class="text-green" style="display: inline-block;"> I’m itzel.</span></h4>
+                    <h5 class="text-gray" style="font-weight: normal"> I'm pasionate about improvement. </h5>
+                </div>
+            </div>
             <div class="row text-center">
                 <div class="col-md-6 pt-4">
                     <a href="/work/cinematik">
