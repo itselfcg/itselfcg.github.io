@@ -22,16 +22,20 @@ body{
 .scrollToTop {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 75px; /* Place the button at the bottom of the page */
-    right: 50%;
+
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+
+
     z-index: 99; /* Make sure it does not overlap */
     border: solid transparent 1px; /* Remove borders */
     border-radius: 100%; /* Rounded corners */
     height: 50px;
-    width: 50px;
+    width: 100px;
     background-color: transparent;
     color: var(--green); /* Text color */
-    font-size: 80px; /* Increase font size */
+    font-size: 80px; /* Increase font size *
     transition: all 500ms linear;
 
 }
