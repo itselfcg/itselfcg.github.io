@@ -13,7 +13,7 @@
     Spicing things up with a front-end library.
 @endsection
 @section('description')
-     Challenge: Upgrade an old project created with css to bootstrap.
+     Challenge: Upgrade an old project created with basic html.
     Final result? A responsive website with interactive poetry.
 @endsection
 
