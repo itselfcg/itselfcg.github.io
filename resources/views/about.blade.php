@@ -8,8 +8,8 @@
             <div class="col-md-5 text-center">
                 <img class="w-75" style="border-radius: 50%" src="/pictures/itzel.jpg">
             </div>
-            <div class="col-md-7">
-                <h4 class="text-green">nice to <span style="display: inline-block;">meet you.</span></h4>
+            <div class="col-md-7 " >
+                <h4 class="text-green pt-3">nice to <span style="display: inline-block;">meet you.</span></h4>
                 <h5>
                     I’m a full stack developer, currently learning about User Experience Design.
 
@@ -100,13 +100,16 @@
                             Java,
                             C,
                             PHP,
-                            Js,
+                            JavaScript,
                             SQLServer,
                             MySql,
+                            PostgreSQL,
                             Hibernate,
-                            Spring,
-                            HTML, CSS,
-                            Bootstrap 4
+                            Spring boot,
+                            Html,
+                            Css,
+                            JSF,
+                            Bootstrap 4, Agile Methodologies, UI / UX, Git flow
 
                         </p>
 
