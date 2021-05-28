@@ -235,8 +235,8 @@ padding-top: 5em;
 }
 
 .img-max-750 {
-    max-width: 750px;
-    width:100%;
+    max-width: 750px!important;
+    width:100%!important;
 }
 
 .bg-gray{

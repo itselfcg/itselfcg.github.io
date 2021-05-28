@@ -97,7 +97,8 @@
                     <div class="col-md-6 order-md-last col-sm-12 order-sm-first">
                         <h2> Starting point</h2>
                         <p>I conducted user research asking some of the following questions: How do you find service
-                            providers? How do you find new businesses in your city? How do you find business details? Are
+                            providers? How do you find new businesses in your city? How do you find business details?
+                            Are
                             details always up to date?.
                             The feedback from these questions gave valuable insights to start working on.
 
@@ -118,17 +119,18 @@
                     <div class="col">
                         <h2>Insights learned
                         </h2>
-                        <p>From user research, I learned that there were some pain points for users. The biggest issue was that when they were looking for a business, search results were always a specific group that was always repeated in different searching tools, making it hard to discover new businesses. I also learned that even though users could find what they were looking for, business details were not available, making users look up for that information in multiple places. </p>
+                        <p>From user research, I learned that there were some pain points for users. The biggest issue
+                            was that when they were looking for a business, search results were always a specific group
+                            that was always repeated in different searching tools, making it hard to discover new
+                            businesses. I also learned that even though users could find what they were looking for,
+                            business details were not available, making users look up for that information in multiple
+                            places.
+                        </p>
                     </div>
 
                 </div>
-                <div class="row text-center">
-                    <div class="col">
+                <img class="img-fluid" src="/pictures/uhm3.jpg">
 
-                    <img class="img-max-750" src="/pictures/uhm3.jpg">
-                    </div>
-
-                </div>
             </div>
         </section>
 
@@ -152,7 +154,8 @@
                 <div class="row p-6">
                     <div class="col">
                         <h2>Low-fidelity prototype usability testing</h2>
-                        <p>Users helped me get feedback about their experience testing the prototype and find new insights to
+                        <p>Users helped me get feedback about their experience testing the prototype and find new
+                            insights to
                             improve the product.
                         </p>
                     </div>
@@ -164,7 +167,7 @@
                             <span class="list">1.</span> Direct link for business to access management options.<br>
                             <span class="list">2.</span> Search bar that specifies a location.<br>
                             <span class="list">3.</span> More specific categories. <br>
-                        <span class="list">4.</span> All popular results are display. </p>
+                            <span class="list">4.</span> All popular results are display. </p>
 
                     </div>
                 </div>
@@ -250,7 +253,6 @@
                 <div class="row text-center">
                     <div class="col">
                         <img class="img-max-750" src="/pictures/uhm9.gif">
-
                     </div>
                 </div>
             </div>
