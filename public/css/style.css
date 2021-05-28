@@ -234,6 +234,10 @@ padding-top: 5em;
 
 }
 
+.img-max-750 {
+    max-width: 750px;
+    width:100%;
+}
 
 .bg-gray{
  background-color: rgba(var(--gray-rgb),.15);
@@ -242,6 +246,9 @@ padding-top: 5em;
 
 #cinematik i{
     color: var(--gold);
+}
+#uhm i{
+    color: rgba(var(--uhm-rgb));
 }
 
 .tab { margin-left: 40px; }
