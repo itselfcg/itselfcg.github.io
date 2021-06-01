@@ -6,7 +6,7 @@
 <div class="container">
         <div class="row pb-4">
             <div class="col-md-5 text-center">
-                <img class="w-75" style="border-radius: 50%" src="/pictures/itzel.jpg">
+                <img class="w-75 rounded" src="/pictures/itzel.jpg">
             </div>
             <div class="col-md-7 " >
                 <h4 class="text-green pt-3">nice to <span style="display: inline-block;">meet you.</span></h4>
