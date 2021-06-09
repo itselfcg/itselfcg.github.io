@@ -103,7 +103,8 @@
                             Feedback helped me know who my users are and their needs.
 
                         </p>
-                    </div>  <div class="col-md-6 order-md-first col-sm-12 ">
+                    </div>
+                    <div class="col-md-6 order-md-first col-sm-12 ">
                         <img class="w-100" src="/pictures/cinematik/cinematik3b.jpg" alt="Cinematik App Story Boards">
                     </div>
 
