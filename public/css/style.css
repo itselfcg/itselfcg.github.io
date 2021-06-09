@@ -109,8 +109,11 @@ h9{
 /* TEXT */
 
 .list{
-    color: var(--green);
-font-weight: bold;
+    font-weight: bold;
+}
+
+#uhm .list{
+    color: rgb(var(--uhm-rgb));
 }
 
 p,li{
