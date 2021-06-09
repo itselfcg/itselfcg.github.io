@@ -113,7 +113,7 @@ h9{
 }
 
 #uhm .list{
-    color: rgb(var(--uhm-rgb));
+    color: rgb(var(--uhm-primary));
 }
 
 p,li{
@@ -253,10 +253,10 @@ padding-top: 5em;
 }
 
 #cinematik i{
-    color: var(--gold);
+    color: var(--cinematik-secondary);
 }
 #uhm i{
-    color: rgba(var(--uhm-rgb));
+    color: rgba(var(--uhm-primary));
 }
 
 .tab { margin-left: 40px; }

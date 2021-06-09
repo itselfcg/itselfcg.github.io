@@ -17,7 +17,7 @@
 
                         <div class="preview">
                             <img class="w-100 rounded" src="pictures/uhm.jpg">
-                            <div class="content" style="background-color: rgba(var(--uhm-rgb),.9);color: white;">
+                            <div class="content" style="background-color: rgba(var(--uhm-primary-rgb),.9);color: white;">
                                 <div class="absolute-center">
                                     <h8>uhm</h8><br>
                                     <h9>Web UI/UX</h9>
@@ -33,7 +33,7 @@
 
                     <div class="preview">
                         <img class="w-100 rounded" src="pictures/cinematik.jpg">
-                        <div class="content" style="background-color: rgba(var(--cinematik-rgb),.9);color: white;">
+                        <div class="content" style="background-color: rgba(var(--cinematik-secondary-rgb),.9);color: black;">
                             <div class="absolute-center">
                                 <h8>cinematik</h8><br>
                                 <h9>Mobile UI/UX</h9>
@@ -43,10 +43,10 @@
                     </a>
                 </div>
 
-                <div class="col-md-6 pt-4">
+                <div class="col-md-6 pt-4" style="display: none;">
 
                     <div class="preview">
-                        <img class="w-100 rounded" src="pictures/flawlessbox.jpg">
+                        <img class="w-100 rounded" src="pictures/flawlessbox.jpg" >
                         <div class="content" style="background-color: rgba(var(--pink-rgb),.9);">
                             <div class="absolute-center">
                                 <h8>coming soon</h8><br>
@@ -71,7 +71,7 @@
                     </a>
                 </div>
 
-                <div class="col-md-6 pt-4">
+                <div class="col-md-6 pt-4" style="display: none;">
                     <div class="preview">
                         <img class="w-100 rounded" src="pictures/baja-discover.jpg">
                         <div class="content" style="background-color: rgba(var(--yellow-rgb),.9);">

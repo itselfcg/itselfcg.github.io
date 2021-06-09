@@ -11,9 +11,16 @@
     --light-rgb: 256, 211, 206;
     --yellow-rgb: 239, 182, 39;
     --yellow-rgb: 239, 182, 39;
-    --cinematik-rgb: 68, 80, 108;
-    --gold:#F2AF29;
-    --uhm-rgb:78,2,80;
+
+
+    --uhm-primary:#801A86;
+    --uhm-primary-rgb: 78,2,80;
+
+
+    --cinematik-primary:#293241;
+    --cinematik-secondary: #f2af29;
+    --cinematik-primary-rgb: 68, 80, 108;
+    --cinematik-secondary-rgb: 242, 175, 41;
 
 
     --md-black: #262626;
