@@ -27,13 +27,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100 rounded" src="/pictures/uhm1.jpg" alt="First slide">
+                <img class="d-block w-100 rounded" src="/pictures/uhm/uhm1.jpg" alt="Uhm's mockup 1">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 rounded" src="/pictures/uhm1b.jpg" alt="Second slide">
+                <img class="d-block w-100 rounded" src="/pictures/uhm/uhm1b.jpg" alt="Uhm's mockup 2">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 rounded" src="/pictures/uhm1c.jpg" alt="Third slide">
+                <img class="d-block w-100 rounded" src="/pictures/uhm/uhm1c.jpg" alt="Uhm's mockup 3">
             </div>
 
         </div>
@@ -120,7 +120,7 @@ Feedback helped me know who my users are and their needs.
                         </p>
                     </div>
                     <div class="col-md-6 ">
-                        <img class="w-100" src="/pictures/uhm/uhm3.jpg" alt="Cinematik App Story Boards">
+                        <img class="w-100" src="/pictures/uhm/uhm3.jpg" alt="Uhm's wireframes picture">
                     </div>
 
                 </div>
@@ -217,7 +217,7 @@ Feedback helped me know who my users are and their needs.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="/pictures/uhm2.jpg">
+                <img class="img-fluid" src="/pictures/uhm/uhm2.jpg" alt="Uhm's site map and crazy 8's picture">
             </div>
         </section>
         <section>
@@ -230,7 +230,7 @@ Feedback helped me know who my users are and their needs.
                             scenarios where I could take the best elements of each draft. </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="/pictures/uhm4.jpg">
+                <img class="img-fluid" src="/pictures/uhm/uhm4.jpg" alt="Uhm's digital wireframes">
 
             </div>
         </section>
@@ -315,9 +315,9 @@ Feedback helped me know who my users are and their needs.
                 <div class="row text-center">
                     <div class="col">
 
-                        <img class="img-max-750" src="/pictures/uhm8.jpg">
-                        <img class="img-max-750" src="/pictures/uhm8b.jpg">
-                        <img class="img-max-750" src="/pictures/uhm8c.jpg">
+                        <img class="img-max-750" src="/pictures/uhm/uhm8.jpg" alt="Uhm's mockup 1">
+                        <img class="img-max-750" src="/pictures/uhm/uhm8b.jpg" alt="Uhm's mockup 1">
+                        <img class="img-max-750" src="/pictures/uhm/uhm8c.jpg" alt="Uhm's mockup 1">
                     </div>
                 </div>
             </div>
@@ -336,7 +336,7 @@ Feedback helped me know who my users are and their needs.
                 </div>
                 <div class="row text-center">
                     <div class="col">
-                        <img class="img-max-750" src="/pictures/uhm9.gif">
+                        <img class="img-max-750" src="/pictures/uhm/uhm9.gif" alt="Uhm's high fidelity prototype">
                     </div>
                 </div>
             </div>
@@ -350,7 +350,7 @@ Feedback helped me know who my users are and their needs.
 
                     </div>
                 </div>
-                <img class="img-fluid" src="/pictures/uhm10.jpg">
+                <img class="img-fluid" src="/pictures/uhm/uhm10.jpg" alt="Uhm's Style guide">
 
 
             </div>
