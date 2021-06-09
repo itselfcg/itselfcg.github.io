@@ -243,6 +243,11 @@ padding-top: 5em;
  background-color: rgba(var(--gray-rgb),.15);
 }
 
+.center-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #cinematik i{
     color: var(--gold);
@@ -252,3 +257,9 @@ padding-top: 5em;
 }
 
 .tab { margin-left: 40px; }
+
+.img-mobile{
+    max-width: 300px;
+    height: auto;
+    width: 100%;
+}

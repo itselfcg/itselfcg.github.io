@@ -10,10 +10,10 @@
 @endsection
 
 @section('p-subtitle')
-    Creating user-centered experience designs.
+    Creating user-centered designs.
 @endsection
 @section('description')
-    Cinematik is the final product of the Google UX Design Professional Certificate.
+    Cinematik was my first project for the Google UX Design Professional Certificate.
     Keep scrolling to learn about this project!
 @endsection
 @section('skills','Mobile UI/UX')
@@ -24,23 +24,15 @@
         <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
             <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-            <li data-target="#carousel" data-slide-to="3"></li>
-
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100 rounded" src="/pictures/cinematik2.jpg" alt="First slide">
+                <img class="d-block w-100 rounded" src="/pictures/cinematik/cinematik2.jpg" alt="Cinematik App Mockup">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100 rounded" src="/pictures/cinematik2b.jpg" alt="First slide">
+                <img class="d-block w-100 rounded" src="/pictures/cinematik/cinematik2b.jpg" alt="Cinematik App Mockup 2">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 rounded" src="/pictures/cinematik2c.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100 rounded" src="/pictures/cinematik2d.jpg" alt="First slide">
-            </div>
+
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,19 +68,19 @@
                 <div class="row ">
                     <div class="col-md-8 col-sm-12">
                         <h2> Project Vision</h2>
-                        <p>Cinematik is an app where customers can book a movie theater seat, order from the food court
-                            ahead of time and look for information about movies. Cinematik wants customers to enjoy the
-                            movie theater experience and stop worrying about spending time in long lines. </p>
+                        <p>
+                            Cinematik is an app where customers can book a movie theater seat, order from the food court ahead of time and look for information about movies. Cinematik wants customers to enjoy the movie theater experience and stop worrying about spending time in long lines.
+                        </p>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <h2> Challenges</h2>
 
                         <p>
                             <span class="list">1.</span>
-                            Create a friendly user interface<br>
+                            Create an app where users can book a movie theater seat<br>
 
                             <span class="list">2.</span>
-                            Provide a linear booking experience
+                            Create a friendly user interface
 
                         </p>
 
@@ -101,14 +93,18 @@
 
                     <div class="col-md-6 order-md-last col-sm-12 order-sm-first">
                         <h2> Starting point</h2>
-                        <p>I conducted interviews and created empathy maps to understand the user's I’m designing for
-                            and
-                            their needs. The primary group for this research was people who frequently go to the movie
-                            theater.
-                            These users confirmed initial assumptions about who are Cinematik customers and which are their needs.
+                        <p>
+
+                            To start I conducted user research, some of the questions asked were:<br>
+                            How often do you go to the movie theater?
+                            Do you usually buy your tickets online or at the box office?
+                            Have you ever had any problem buying your tickets?
+                            Do you usually buy from the food court? What do you usually order?<br>
+                            Feedback helped me know who my users are and their needs.
+
                         </p>
                     </div>  <div class="col-md-6 order-md-first col-sm-12 ">
-                        <img class="w-100" src="/pictures/cinematik3b.jpg">
+                        <img class="w-100" src="/pictures/cinematik/cinematik3b.jpg" alt="Cinematik App Story Boards">
                     </div>
 
                 </div>
@@ -117,16 +113,18 @@
         </section>
         <section class="bg-gray">
             <div class="container">
-                <div class="row" style="padding-bottom: 8em">
+                <div class="row pb-3">
                     <div class="col text-center">
                         <h2>Meet the users</h2>
+                        <p>Cinematik’s primary users are people that enjoy going to the movie theater.
+                        </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="offset-md-1 col-md-5 col-sm-12">
                         <div class="row">
                             <div class="col-5 ">
-                                <img class="img-fluid" src="{{asset('pictures/persona2.png')}}">
+                                <img class="img-fluid" src="{{asset('pictures/cinematik/persona2.png')}}" alt="Persona picture">
                             </div>
                             <div class="col-5">
                                 <p><b>Name:</b> Akira<br>
@@ -138,11 +136,8 @@
                         <div class="row">
                             <div class="col">
                                 <p>
-                                    Akira likes to go to the movie theater with his friends. He likes superhero movies,
-                                    he never missed a Marvel’s movie premiere. Akira likes to buy his tickets online,
-                                    but sometimes he gets frustrated because the page is slow, a couple of times he got
-                                    distracted while waiting and when he tried to continue the process he discovered
-                                    that he had to start again
+                                    Akira likes to go to the movie theater with his friends. He likes superhero movies and he never missed a Marvel’s movie premiere. Akira likes to buy his tickets online, but sometimes he gets frustrated because the page is slow.
+
                                 </p>
                             </div>
                         </div>
@@ -152,7 +147,7 @@
                     <div class=" col-md-5 col-sm-12">
                         <div class="row">
                             <div class="col-5 ">
-                                <img class="img-fluid" src="{{asset('pictures/persona1.png')}}">
+                                <img class="img-fluid" src="{{asset('pictures/cinematik/persona1.png')}}" alt="Persona picture">
                             </div>
                             <div class="col-5">
                                 <p><b>Name:</b> Ana<br>
@@ -164,12 +159,7 @@
                         <div class="row">
                             <div class="col">
                                 <p>
-                                    Ana loves movies, she always goes to the movie theater on weekends, it’s her
-                                    stress-relief activity after a long week of work. She doesn’t trust the movie
-                                    ticketing system after multiple bad experiences of not receiving her tickets via
-                                    email but the box office is always busy and for that reason she continues buying her
-                                    tickets online.If she has luck, she’ll have her tickets. If not, she’ll have to go
-                                    to the box office anyway.
+                                    Ana loves movies, she always goes to the movie theater on weekends, it’s her stress-relief activity after a long week of work. She doesn’t trust the movie ticketing system after multiple bad experiences of not receiving her tickets via email but the box office is always busy and for that reason she continues buying her tickets online.If she has luck, she’ll have her tickets. If not, she’ll have to go to the box office anyway.
 
                                 </p>
                             </div>
@@ -185,20 +175,32 @@
             <div class="container">
                 <div class="row p-6">
                     <div class="col">
-                        <h2>User journey</h2>
-                        <p>Even though their common goal was booking a seat, each user had their own user journey. I
-                            created
-                            a generic user journey with all the steps users took in common to accomplish their
-                            goal. </p>
+                        <h2>Ideation</h2>
+                        <p>Using Crazy 8’s approach I sketched some concepts for the app design based on what I learned about users. Crazy 8’s allowed me to rapidly brainstorm multiple solutions for the problem.</p>
                     </div>
+                    <div class="col">
+                        <img class="img-fluid " src="/pictures/cinematik/cinematik3c.jpg" alt="Crazy 8's picture">
 
+                    </div>
                 </div>
-                <img class="img-fluid" src="/pictures/cinematik4.jpg">
 
             </div>
         </section>
         <section>
-            <img class="img-fluid" src="/pictures/cinematik3.jpg">
+            <div class="container">
+                <div class="row p-6">
+                    <div class="col">
+                        <h2>User journey</h2>
+                        <p>Creating a user journey helped me clarify which steps users take to complete their goal and made considerations for the design.Creating a user journey helped me clarify which steps users take to complete their goal and made considerations for the design.</p>
+                    </div>
+
+                </div>
+                <img class="img-fluid" src="/pictures/cinematik/cinematik4.jpg" alt="Cinematik App user journey diagram">
+
+            </div>
+        </section>
+        <section class="text-center">
+            <img class="img-fluid" src="/pictures/cinematik/cinematik3.jpg" alt="Cinematik App wireframes picture">
 
         </section>
         <section>
@@ -207,41 +209,19 @@
                 <div class="row p-6">
                     <div class="col">
                         <h2>Wireframes</h2>
-                        <p>Taking the time to draft multiple times the same screen ensured that I could have multiple
-                            scenarios where I could take the best elements of each draft. </p>
+                        <p>Taking the time to draft multiple times on the same screen ensured that I could have multiple scenarios where I could take the best elements of each draft. </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="/pictures/cinematik5.jpg">
+                <img class="img-fluid" src="/pictures/cinematik/cinematik5.jpg" alt="Cinematik App digital wireframes">
 
-            </div>
-        </section>
-        <section>
-            <div class="container">
-
-                <div class="row p-6">
-                    <div class="col">
-                        <h2>Wireflow</h2>
-                        <p>After sketching some wireframes, I created a basic wireflow following the user journey
-                            created
-                            previously and adding some navigation elements, always having the user center and front when
-                            designing the flow for each screen.</p>
-                    </div>
-                </div>
-                <img class="img-fluid" src="/pictures/cinematik6.jpg">
             </div>
         </section>
         <section class="bg-gray">
             <div class="container">
                 <div class="row p-6">
                     <div class="col">
-                        <h2>Iterations</h2>
-                        <p>After finishing the low fidelity prototype, I conducted a moderated usability study. I asked
-
-                            different participants to run through different scenarios in the prototype, that helped me
-                            to
-                            get feedback about their experience using the app and find insights that would help me
-                            improve
-                            the user experience.
+                        <h2>Usability study insights</h2>
+                        <p>After finishing the low fidelity prototype I conducted a moderated usability study. I asked different participants to run through different scenarios in the prototype, their feedback helped me define insights to improve the user experience.
                         </p>
                     </div>
                 </div>
@@ -253,9 +233,7 @@
                             </div>
                             <div class="col-8">
                                 <h2>Prices are not clear.</h2>
-                                <p> Users want to know exactly how much they’re spending. They want clear prices from
-                                    every
-                                    product displayed.
+                                <p> Users want to know exactly how much they’re spending. They want clear prices from every product displayed.
                                 </p>
                             </div>
                         </div>
@@ -267,8 +245,7 @@
                             </div>
                             <div class="col-8">
                                 <h2>Details are missing.</h2>
-                                <p> Users want more details of their confirmation page. They want to know exacly what they are paying for.
-                                </p>
+                                <p> Users want more details of their reservation in the confirmation page, they want to know exactly what they paid for.                                </p>
                             </div>
                         </div>
                     </div>
@@ -280,8 +257,7 @@
                             </div>
                             <div class="col-8">
                                 <h2>Not friendly enough.</h2>
-                                <p> Users want a easier way to customize their products.
-                                </p>
+                                <p> Users want an easier way to add products to their cart.</p>
                             </div>
                         </div>
                     </div>
@@ -292,8 +268,7 @@
                             </div>
                             <div class="col-8">
                                 <h2>Not intuitive enough.</h2>
-                                <p> Users want a cleaner flow to navigate betweeen sections.There are to many options that look like a navbar.
-                                </p>
+                                <p>Users need better cues of how to navigate between sections.</p>
                             </div>
                         </div>
                     </div>
@@ -301,53 +276,47 @@
                 <div class="row p-6"  style="padding-top: 4em;">
                     <div class="col">
                         <h2>Challenge #1</h2>
-                        <p class="tab p-4"> <span class="list">1.</span>
-                            Improve the presentation of reservation info<br>
-                            <span class="list">2.</span>
-                            Add reservation details in confirmation page.<br>
-                            <span class="list">3.</span>
-                            Add a payment confirmation message.</p></p>
+                        <p >
+
+                            Improve the confirmation page.
+                        </p>
                     </div>
                 </div>
-                <div class="row p-6">
 
-                    <div class="col">
-                        <img class="img-fluid" src="/pictures/cinematik_challenges_1.png">
-                    </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/pictures/cinematik_challenges_1b.png">
+                <div class="row center-middle">
 
+                    <div class="col-5 text-right">
+                        <img class="img-mobile" src="/pictures/cinematik/cinematik_challenges_1.png" alt="Wireframe #1 first version">
                     </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/pictures/cinematik_challenges_1c.gif">
+                    <div class="col text-center">
+                        <i class="fa fa-chevron-right fa-2x"></i>
+                    </div>
+                    <div class="col-5 text-left">
+                        <img class="img-mobile" src="/pictures/cinematik/cinematik_challenges_1b.png" alt="Wireframe #1 second version">
                     </div>
                 </div>
 
                 <div class="row p-6" style="padding-top: 4em;">
                     <div class="col">
                         <h2>Challenge #2</h2>
-                        <p class="tab p-4">
-
-                            <span class="list">1.</span>
-                            Make prices clearer<br>
-                            <span class="list">2.</span>
-                            Improve the flow for adding products to the cart.<br>
-                            <span class="list">3.</span>
-                            Show the total for products inside the cart.</p>
+                        <p>
+Improve the adding products to cart flow.
+                        </p>
                     </div>
                 </div>
-                <div class="row p-6">
+                <div class="row center-middle">
 
-                    <div class="col">
-                        <img class="img-fluid" src="/pictures/cinematik_challenges_2b.png">
+                    <div class="col-5 text-right">
+                        <img class="img-mobile" src="/pictures/cinematik/cinematik_challenges_2b.png" alt="Wireframe #2 first version">
                     </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/pictures/cinematik_challenges_2.png">
+                    <div class="col text-center">
+                        <i class="fa fa-chevron-right fa-2x"></i>
+                    </div>
+                    <div class="col-5 text-left">
+                        <img class="img-mobile" src="/pictures/cinematik/cinematik_challenges_2.png" alt="Wireframe #2 Second version">
 
                     </div>
-                    <div class="col">
-                        <img class="img-fluid" src="/pictures/cinematik_challenges_2c.gif">
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -357,14 +326,49 @@
 
                 <div class="row p-6">
                     <div class="col">
-                        <h2>Style guide</h2>
-                        <p>For the style I went for a dark theme for the app. The color palette consists of three
-                            colors:
-                            dark blue, gold and white. Where backgrounds are blue, white or a mix of both and important
-                            elements were fast recononizable for their gold color. </p>
+                        <h2>Mockups</h2>
+                        <p>After updating wireframes with insights defined in the usability study, mockups can be created. They’ll give a better idea of how the final product will look like.</p>
                     </div>
                 </div>
-                <img class="img-fluid" src="/pictures/cinematik7.jpg">
+
+                    <img class="img-fluid" src="/pictures/cinematik/cinematik2c.jpg" alt="Cinematik App Mockups">
+                    <img class="img-fluid" src="/pictures/cinematik/cinematik2d.jpg" alt="More Cinematik App Mockups">
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+
+                <div class="row p-6">
+                    <div class="col">
+                        <h2>High-fidelity prototype</h2>
+                        <p>When mockups are finished, interactions are added to create a complete picture of the completed design. </p>
+                    </div>
+                </div>
+                <div class="row p-6">
+                    <div class="col text-center">
+                <img class="img-mobile" src="/pictures/cinematik/cinematik9.gif" alt="Cinematik App prototype gif">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <div class="container">
+
+                <div class="row p-6">
+                    <div class="col">
+                        <h2>Style guide</h2>
+                    </div>
+                </div>
+                <img class="img-fluid" src="/pictures/cinematik/cinematik7.jpg"  alt="Cinematik App Style Guide">
 
 
             </div>
