@@ -12,8 +12,7 @@
     Creating more user-centered designs.
 @endsection
 @section('description')
-    Uhm was my second project for the the Google UX Design Professional Certificate.
-    Keep scrolling to learn more!
+    Uhm was my second project for the Google UX Design Professional Certificate.Keep scrolling to learn more!
 @endsection
 @section('skills','Web UI/UX')
 
@@ -70,19 +69,17 @@
                 <div class="row ">
                     <div class="col-md-8 col-sm-12">
                         <h2> Project Vision</h2>
-                        <p>Uhm is a website where people can look up for business or service providers in their city.
-                            Uhm wants users to find that business, service or restaurant they are looking for, in the
-                            simplest way possible.</p>
+                        <p>Uhm is a website where people can look up business or service providers in their city. Uhm wants users to find that business, service, or restaurant they are looking for, in the simplest way possible.</p>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <h2> Challenges</h2>
 
                         <p>
                             <span class="list">•</span>
-                            Create an app where users can look for local business/service providers<br>
+                            Create an app where users can look for local business/service providers.<br>
 
                             <span class="list">•</span>
-                            Create a friendly user interface
+                            Create a friendly user interface.
 
 
                         </p>
@@ -106,7 +103,7 @@
                                 <span class="list">2.</span>
                                 How do you usually find new business in your city?<br>
                                 <span class="list">3.</span>
-                                Where do you look for business details of a new place you’d like to visit?Are they
+                                Where do you look for business details of a new place you’d like to visit? Are they
                                 always up
                                 to date?<br>
                                 <span class="list">4.</span>
@@ -117,7 +114,7 @@
                         </div>
                         <p>
 
-                            Feedback helped me know who my users are and their needs.
+                            The feedback helped us know who our users are and their needs.
 
                         </p>
                     </div>
@@ -135,9 +132,7 @@
                 <div class="row pb-3">
                     <div class="col text-center">
                         <h2>Meet the users</h2>
-                        <p>Uhm’s primary users are people looking for service providers or business in their city.
-
-                        </p>
+                        <p>Uhm’s primary users include people looking for service providers or businesses in their city.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -157,13 +152,7 @@
                         <div class="row">
                             <div class="col">
                                 <p>
-                                    Nadia has had bad experiences with hair dressers, that is her main reason for
-                                    constantly visiting new hair salons. Her options are limited, she doesn’t have a lot
-                                    of money to go to the posh salons she sees in ads, but there is not a lot of
-                                    information about small hair salons in google. She recurs to social media looking
-                                    for a new hair salon but she always sees the same places, she has to invest a lot of
-                                    time looking for new hair salons to visit.
-
+                                    Nadia has had bad experiences with hairdressers, that is her main reason for constantly visiting new hair salons. Her options are limited, she doesn’t have a lot of money to go to the posh salons she sees in ads, but there is not a lot of information about small hair salons on google. She recurs to social media looking for a new hair salon but she always sees the same places, she has to invest a lot of time looking for new hair salons to visit.
                                 </p>
                             </div>
                         </div>
@@ -186,11 +175,7 @@
                         <div class="row">
                             <div class="col">
                                 <p>
-                                    Mario works all day, but as a driver he really enjoys driving around the city.
-                                    Whenever he needs a service provider he usually goes to places he had seen in an
-                                    advertisement, his main problem doing that is that sometimes they are out of his
-                                    budget and he is too embarrassed to tell them no, more than one he had paid too much
-                                    because he didn’t know better.
+                                    Mario works all day, but as a driver, he really enjoys driving around the city. Whenever he needs a service provider he usually goes to places he had seen in an advertisement, his main problem doing that is that sometimes they are out of his budget and he is too embarrassed to tell them no, more than once he had paid too much because he didn’t know better.
                                 </p>
                             </div>
                         </div>
@@ -255,7 +240,7 @@
                                 <i class="fa fa-usd fa-5x"></i>
                             </div>
                             <div class="col-8">
-                                <h2>Products categories are not clear.</h2>
+                                <h2>Products categories are not clear</h2>
                                 <p> Users want a more intuitive way to find business in the category section.
                                 </p>
                             </div>
@@ -267,8 +252,8 @@
                                 <i class="fa fa-list fa-5x"></i>
                             </div>
                             <div class="col-8">
-                                <h2>Location in missing.</h2>
-                                <p>Users want to know the location of search’s results.
+                                <h2>Location is missing</h2>
+                                <p>Users want to know the exact location of the search’s results.
                                 </p>
                             </div>
                         </div>

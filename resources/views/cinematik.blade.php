@@ -69,18 +69,18 @@
                     <div class="col-md-8 col-sm-12">
                         <h2> Project Vision</h2>
                         <p>
-                            Cinematik is an app where customers can book a movie theater seat, order from the food court ahead of time and look for information about movies. Cinematik wants customers to enjoy the movie theater experience and stop worrying about spending time in long lines.
-                        </p>
+                            Cinematik is an app where customers can book a movie theater seat, order from the food court ahead of time, and look for information about movies. Cinematik wants customers to enjoy the movie theater experience and stop worrying about spending time in long lines.
+                                        </p>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <h2> Challenges</h2>
 
                         <p>
                             <span class="list">1.</span>
-                            Create an app where users can book a movie theater seat<br>
+                            Create an app where users can book a movie theater seat.<br>
 
                             <span class="list">2.</span>
-                            Create a friendly user interface
+                            Create a friendly user interface.
 
                         </p>
 
@@ -100,7 +100,7 @@
                             Do you usually buy your tickets online or at the box office?
                             Have you ever had any problem buying your tickets?
                             Do you usually buy from the food court? What do you usually order?<br>
-                            Feedback helped me know who my users are and their needs.
+                            The feedback helped us know who our users are and their needs.
 
                         </p>
                     </div>
@@ -137,8 +137,7 @@
                         <div class="row">
                             <div class="col">
                                 <p>
-                                    Akira likes to go to the movie theater with his friends. He likes superhero movies and he never missed a Marvel’s movie premiere. Akira likes to buy his tickets online, but sometimes he gets frustrated because the page is slow.
-
+                                    Akira likes to go to the movie theater with his friends. He likes superhero movies, he had never missed a  superhero movie premiere. Akira likes to buy his tickets online, but sometimes he gets frustrated because the page is slow.
                                 </p>
                             </div>
                         </div>
@@ -160,8 +159,7 @@
                         <div class="row">
                             <div class="col">
                                 <p>
-                                    Ana loves movies, she always goes to the movie theater on weekends, it’s her stress-relief activity after a long week of work. She doesn’t trust the movie ticketing system after multiple bad experiences of not receiving her tickets via email but the box office is always busy and for that reason she continues buying her tickets online.If she has luck, she’ll have her tickets. If not, she’ll have to go to the box office anyway.
-
+                                    Ana loves movies, she always goes to the movie theater on weekends, it’s her stress-relief activity after a long week of work. She doesn’t trust the movie ticketing system after multiple bad experiences of not receiving her tickets via email but the box office is always busy and for that reason, she continues buying her tickets online. If she has luck, she’ll have her tickets. If not, she’ll have to go to the box office anyway.
                                 </p>
                             </div>
                         </div>
@@ -233,9 +231,9 @@
                                 <i class="fa fa-usd fa-5x"></i>
                             </div>
                             <div class="col-8">
-                                <h2>Prices are not clear.</h2>
-                                <p> Users want to know exactly how much they’re spending. They want clear prices from every product displayed.
-                                </p>
+                                <h2>The prices are not clear</h2>
+                                <p>
+                                    Users want to know exactly how much they’re spending. They want clear prices for every product displayed.                                </p>
                             </div>
                         </div>
                     </div>
@@ -245,8 +243,10 @@
                                 <i class="fa fa-list fa-5x"></i>
                             </div>
                             <div class="col-8">
-                                <h2>Details are missing.</h2>
-                                <p> Users want more details of their reservation in the confirmation page, they want to know exactly what they paid for.                                </p>
+                                <h2>Details are missing</h2>
+                                <p>
+                                    Users want more details of their reservation on the confirmation page, they want to know exactly what they paid for.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -257,8 +257,9 @@
                                 <i class="fa fa-question-circle fa-5x"></i>
                             </div>
                             <div class="col-8">
-                                <h2>Not friendly enough.</h2>
-                                <p> Users want an easier way to add products to their cart.</p>
+                                <h2>Not friendly enough</h2>
+                                <p>Users want an easier way to add products to their cart.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -268,8 +269,9 @@
                                 <i class="fa fa-times fa-5x"></i>
                             </div>
                             <div class="col-8">
-                                <h2>Not intuitive enough.</h2>
-                                <p>Users need better cues of how to navigate between sections.</p>
+                                <h2>Not intuitive enough</h2>
+                                <p>Users need better cues on how to navigate between sections.
+                                </p>
                             </div>
                         </div>
                     </div>

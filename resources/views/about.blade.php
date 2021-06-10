@@ -11,13 +11,13 @@
             <div class="col-md-7 " >
                 <h4 class="text-green pt-3">nice to <span style="display: inline-block;">meet you.</span></h4>
                 <h5>
-                    I’m a full stack developer, currently learning about User Experience Design.
+                    I’m a full-stack developer, currently learning about User Experience Design.
 
                 </h5>
                 <p>
                 <p>
                     I started exploring UX to enrich my front-end but I found myself learning about equity,
-                    accessibility and the next billion users. Now I want to create solutions for the modern
+                    accessibility, and the next billion users. Now I want to create solutions for the modern
                     age.
                 </p>
 
