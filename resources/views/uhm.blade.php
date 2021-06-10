@@ -101,21 +101,23 @@
 
                         <div class="tab">
                             <p>
-                            <span class="list">1.</span>
-                            How do you usually look for service providers?<br>
-                            <span class="list">2.</span>
-                            How do you usually find new business in your city?<br>
-                            <span class="list">3.</span>
-                            Where do you look for business details of a new place you’d like to visit?Are they always up
-                            to date?<br>
-                            <span class="list">4.</span>
-                            Have you ever been in a situation where you can’t find what you were looking for? What did
-                            you do to find that place? Did you find it?<br>
+                                <span class="list">1.</span>
+                                How do you usually look for service providers?<br>
+                                <span class="list">2.</span>
+                                How do you usually find new business in your city?<br>
+                                <span class="list">3.</span>
+                                Where do you look for business details of a new place you’d like to visit?Are they
+                                always up
+                                to date?<br>
+                                <span class="list">4.</span>
+                                Have you ever been in a situation where you can’t find what you were looking for? What
+                                did
+                                you do to find that place? Did you find it?<br>
                             </p>
                         </div>
                         <p>
 
-Feedback helped me know who my users are and their needs.
+                            Feedback helped me know who my users are and their needs.
 
                         </p>
                     </div>
@@ -276,7 +278,7 @@ Feedback helped me know who my users are and their needs.
                 <div class="row p-6" style="padding-top: 4em;">
                     <div class="col">
                         <h2>Challenge</h2>
-                        <p>Improve navigation.</p>
+                        <p>Improve navigation. Improve navbar categories. Add search's location.</p>
 
                     </div>
                 </div>
@@ -315,11 +317,30 @@ Feedback helped me know who my users are and their needs.
                 <div class="row text-center">
                     <div class="col">
 
-                        <img class="img-max-750" src="/pictures/uhm/uhm8.jpg" alt="Uhm's mockup 1">
-                        <img class="img-max-750" src="/pictures/uhm/uhm8b.jpg" alt="Uhm's mockup 1">
-                        <img class="img-max-750" src="/pictures/uhm/uhm8c.jpg" alt="Uhm's mockup 1">
+
+                        <img class="img-web" src="/pictures/uhm/uhm8.jpg" alt="Uhm's mockup 1">
+                        <div class="row ">
+                            <div class="col">
+                                <img class="img-web" src="/pictures/uhm/uhm8b.jpg" alt="Uhm's mockup 1">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+
+
+                        <div class="row pt-2">
+
+                            <div class="col">
+                                <img class="img-web" src="/pictures/uhm/uhm8c.jpg" alt="Uhm's mockup 1">
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
             </div>
         </section>
         <section class="bg-gray">
