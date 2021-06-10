@@ -113,7 +113,13 @@ h9{
 }
 
 #uhm .list{
-    color: rgb(var(--uhm-primary));
+    color: var(--uhm-primary);
+}
+#auxilium .list{
+    color: rgb(var(--auxilium-secondary-rgb));
+}
+#auxilium h6{
+    color: var(--xs-gray);
 }
 
 p,li{
@@ -256,13 +262,21 @@ padding-top: 5em;
     color: var(--cinematik-secondary);
 }
 #uhm i{
-    color: rgba(var(--uhm-primary));
+    color: var(--uhm-primary);
+}
+#auxilium i{
+    color:var(--auxilium-secondary);
 }
 
 .tab { margin-left: 40px; }
 
 .img-mobile{
     max-width: 300px;
+    height: auto;
+    width: 100%;
+}
+.img-web{
+    max-width: 450px;
     height: auto;
     width: 100%;
 }
